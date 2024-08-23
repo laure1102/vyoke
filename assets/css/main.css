@@ -1,0 +1,143 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width:100%;
+  background: #fff;
+}
+
+* {
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+a,
+a:hover,
+a:focus,
+a:visited {}
+
+article,
+aside,
+blockquote,
+body,
+button,
+code,
+dd,
+details,
+div,
+dl,
+dt,
+fieldset,
+figcaption,
+figure,
+footer,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+hgroup,
+hr,
+input,
+legend,
+li,
+menu,
+nav,
+ol,
+p,
+pre,
+section,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+#__nuxt, #__layout{
+  height:100%;
+  width:100%;
+}
+#container{
+  background: #fff;
+  height:100%;
+  width:100%;
+}
+
+#index-page, .index-layout{
+  height:100%;
+  width:100%;
+}
+
+.index-left{
+  height:100%;
+  background: #f7fdf7;
+}
+
+.index-header{
+  height:60px;
+  float:left;
+}
+.index-header img{
+  height:59px;
+  float:left;
+}
+
+.index-header .index-logo-txt{
+  float:left;
+  margin-left: 2px;
+  margin-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.index-search-type{
+  float:left;
+  margin-left: 2px;
+  margin-top: 15px;
+}
+.index-search-type .ivu-select{
+  height:40px;
+}
+.index-search-type .ivu-select-selection{
+  height:40px;
+  padding-top: 4px;
+}
+.index-search{
+  float:left;
+  margin-left: 2px;
+  margin-top: 15px;
+  width:400px;
+}
+
+.index-search-type .search-type-item img{
+  height:20px;
+  padding-right: 3px;
+}
+
+.index-search-type .selected-type-icon{
+  height:20px;
+}
+
+.index-fav{
+      float: left;
+      margin-left: 2px;
+      margin-top: 23px;
+}
+.index-user{
+      float: left;
+      margin-left: 20px;
+      margin-top: 20px;
+}
+.index-user .index-user-name{
+  font-size: 16px;
+}
