@@ -14,8 +14,8 @@ module.exports = {
         JWT_TOKEN_EXPIRE: "2m", //3600(3600秒), '1h,30m,1d,1w,200s'
         JWT_REFRESH_TOKEN_EXPIRE: 3600 * 24 * 15, //2000(2000秒)
         USER_ACTIVE_LINK_EXPIRE: 7200,//激活邮件的链接失效时间
-        MAIL_SENDER_USER:"vyoke@outlook.com",
-        MAIL_SENDER_PASSWORD:"Laure.2023.real",
+        MAIL_SENDER_USER:"xxxxxx@outlook.com",
+        MAIL_SENDER_PASSWORD:"asdfsdfd213",
         SITE_ROOT:"http://localhost:5000",//网站域名
       },
       env_production: {
